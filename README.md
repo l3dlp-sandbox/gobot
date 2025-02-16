@@ -242,9 +242,11 @@ Gobot has a extensible system for connecting to hardware devices. The following 
 platforms are currently supported:
 
 - [Arduino](http://www.arduino.cc/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/firmata)
+- [ASUS Tinker Board](https://www.asus.com/us/Single-Board-Computer/Tinker-Board/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/asus/tinkerboard)
+- [ASUS Tinker Board 2](https://tinker-board.asus.com/series/tinker-board-2.html/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/asus/tinkerboard2)
 - Audio <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/audio)
-- [Beaglebone Black](http://beagleboard.org/boards) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/beaglebone)
-- [Beaglebone PocketBeagle](http://beagleboard.org/pocket/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/beaglebone)
+- [BeagleBoard BeagleBone Black](http://beagleboard.org/boards) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/beagleboard/beaglebone)
+- [BeagleBoard PocketBeagle](http://beagleboard.org/pocket/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/beagleboard/pocketbeagle)
 - [Bluetooth LE](https://www.bluetooth.com/what-is-bluetooth-technology/bluetooth-technology-basics/low-energy) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/bleclient)
 - [C.H.I.P](http://www.nextthing.co/pages/chip) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/chip)
 - [C.H.I.P Pro](https://docs.getchip.com/chip_pro.html) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/chip)
@@ -252,6 +254,8 @@ platforms are currently supported:
 - [DJI Tello](https://www.ryzerobotics.com/tello) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/dji/tello)
 - [DragonBoard](https://developer.qualcomm.com/hardware/dragonboard-410c) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/dragonboard)
 - [ESP8266](http://esp8266.net/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/firmata)
+- [FriendlyELEC NanoPi NEO](https://wiki.friendlyelec.com/wiki/index.php/NanoPi_NEO) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/friendlyelec/nanopi)
+- [FriendlyELEC NanoPC-T6](https://wiki.friendlyelec.com/wiki/index.php/NanoPC-T6) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/friendlyelec/nanopct6)
 - [GoPiGo 3](https://www.dexterindustries.com/gopigo3/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/dexter/gopigo3)
 - [Intel Curie](https://www.intel.com/content/www/us/en/products/boards-kits/curie.html) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/intel-iot/curie)
 - [Intel Edison](http://www.intel.com/content/www/us/en/do-it-yourself/edison.html) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/intel-iot/edison)
@@ -264,23 +268,23 @@ platforms are currently supported:
 - [MegaPi](http://www.makeblock.com/megapi) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/megapi)
 - [Microbit](http://microbit.org/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/microbit)
 - [MQTT](http://mqtt.org/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/mqtt)
-- [NanoPi NEO](https://wiki.friendlyelec.com/wiki/index.php/NanoPi_NEO) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/nanopi)
 - [NATS](http://nats.io/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/nats)
 - [Neurosky](http://neurosky.com/products-markets/eeg-biosensors/hardware/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/neurosky)
 - [OpenCV](http://opencv.org/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/opencv)
+- [OrangePi 5 Pro](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5-Pro.html) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/orangepi/orangepi5pro)
 - [Particle](https://www.particle.io/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/particle)
 - [Parrot ARDrone 2.0](http://ardrone2.parrot.com/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/parrot/ardrone)
 - [Parrot Bebop](http://www.parrot.com/usa/products/bebop-drone/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/parrot/bebop)
 - [Parrot Minidrone](https://www.parrot.com/us/minidrones) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/parrot/minidrone)
 - [Pebble](https://www.getpebble.com/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/pebble)
-- [Radxa Rock Pi 4](https://wiki.radxa.com/Rock4/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/rockpi)
+- [PINE64 ROCK64](https://pine64.org/documentation/ROCK64/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/pine64/rock64)
+- [Radxa Rock Pi 4](https://wiki.radxa.com/Rock4/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/radxa/rockpi)
 - [Raspberry Pi](http://www.raspberrypi.org/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/raspi)
 - [Serial Port](https://en.wikipedia.org/wiki/Serial_port) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/serialport)
 - [Sphero](http://www.sphero.com/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/sphero/sphero)
 - [Sphero BB-8](http://www.sphero.com/bb8) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/sphero/bb8)
 - [Sphero Ollie](http://www.sphero.com/ollie) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/sphero/ollie)
 - [Sphero SPRK+](http://www.sphero.com/sprk-plus) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/sphero/sprkplus)
-- [Tinker Board](https://www.asus.com/us/Single-Board-Computer/Tinker-Board/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/tinkerboard)
 - [UP2](http://www.up-board.org/upsquared/) <=> [Package](https://github.com/hybridgroup/gobot/blob/release/platforms/upboard/up2)
 
 Support for many devices that use Analog Input/Output (AIO) have a shared set of drivers provided using
@@ -407,6 +411,12 @@ a shared set of drivers provided using the `gobot/drivers/spi` package:
   - MCP3304 Analog/Digital Converter
   - MFRC522 RFID Card Reader
   - SSD1306 OLED Display Controller
+
+Support for devices that use 1-wire bus with Linux Kernel support (w1-gpio) have
+a shared set of drivers provided using the `gobot/drivers/onewire` package:
+
+- [1-wire](https://en.wikipedia.org/wiki/1-Wire) <=> [Drivers](https://github.com/hybridgroup/gobot/blob/release/drivers/onewire)
+  - DS18B20 Temperature Sensor
 
 ## API
 

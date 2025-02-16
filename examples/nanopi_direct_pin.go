@@ -13,7 +13,7 @@ import (
 	"gobot.io/x/gobot/v2"
 	"gobot.io/x/gobot/v2/drivers/gpio"
 	"gobot.io/x/gobot/v2/platforms/adaptors"
-	"gobot.io/x/gobot/v2/platforms/nanopi"
+	"gobot.io/x/gobot/v2/platforms/friendlyelec/nanopi"
 )
 
 // Wiring
@@ -49,6 +49,11 @@ func main() {
 			fmt.Printf("pin %s state is %d\n", inPinNum, read)
 			if err != nil {
 				fmt.Println(err)
+				if level == 1 {
+					level = 0
+				} else {
+					level = 1
+				}
 			} else {
 				level = byte(read)
 			}
@@ -63,12 +68,6 @@ func main() {
 			fmt.Printf("pin %s is now not %d\n", outPinInvertedNum, level)
 			if err != nil {
 				fmt.Println(err)
-			}
-
-			if level == 1 {
-				level = 0
-			} else {
-				level = 1
 			}
 		})
 	}
